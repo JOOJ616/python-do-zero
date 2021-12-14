@@ -1,4 +1,5 @@
-print("Calculadora que só sabe somar dois valores, digite os dois: ")
-n1 = int(input("valor um: "))
-n2 = int(input("Valor dois: "))
-print("A soma é:", n1+n2)
+print("Bem vindo a calculadora que só consegue somar valores interios, digite dois números")
+n1 = int(input("Digite o Primero número: "))
+n2 = int(input("Digite o segundo número: "))
+s = n1+n2
+print("A soma entre {} e {} é igual a {}".format(n1, n2, s))

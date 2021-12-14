@@ -1,2 +1,5 @@
-name = input("Qual é o seu nome??: ")
-print("Seja bem vindo, foi um prazer em conhecer", name)
+d = input("Qual foi o dia que voce nasceu?: ")
+m = input("Qual foi o mes que voce nasceu?: ")
+a = input("Qual foi o ano que voce nasceu?: ")
+
+print("Sua data de nascimento é", d, m, a)

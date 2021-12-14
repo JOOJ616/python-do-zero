@@ -1,5 +1,4 @@
-d = input("Qual foi o dia que voce nasceu?: ")
-m = input("Qual foi o mes que voce nasceu?: ")
-a = input("Qual foi o ano que voce nasceu?: ")
-
-print("Sua data de nascimento é", d, m, a)
+print("Calculadora que só sabe somar dois valores, digite os dois: ")
+n1 = int(input("valor um: "))
+n2 = int(input("Valor dois: "))
+print("A soma é:", n1+n2)
